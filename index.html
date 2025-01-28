@@ -13,9 +13,9 @@
     <div class="age__container">
         <div class="age__inputs">
             <div class="age__input__day">
-                <label class="age__input__label" for="age">DAY</label>
-                <input class="age__input" type="number" placeholder="DD" id="day_input">
-                <p class="age__error_state">Must be a valid day</p>
+                <label class="age__input__label" for="day_label" id="day_label">DAY</label>
+                <input class="age__input" type="number" placeholder="DD" id="day_input" min="0" max="32">
+                <p class="age__error_state" id="age__error_state">Must be a valid day</p>
             </div>
             <div class="age__input__month">
                 <label class="age__input__label" for="month">MONTH</label>

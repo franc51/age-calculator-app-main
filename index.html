@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="age__container">
+        <div class="age__inputs">
+            <div class="age__input__day">
+                <label class="age__input__label" for="age">DAY</label>
+                <input class="age__input" type="number" placeholder="DD" id="day_input">
+                <p class="age__error_state">Must be a valid day</p>
+            </div>
+            <div class="age__input__month">
+                <label class="age__input__label" for="month">MONTH</label>
+                <input class="age__input" type="number" placeholder="MM">
+                <p class="age__error_state">Must be a valid month</p>
+            </div>
+            <div class="age__input__year">
+                <label class="age__input__label" for="year">YEAR</label>
+                <input class="age__input" type="number" placeholder="YYYY">
+                <p class="age__error_state">Must be a valid year</p>
+            </div>
+        </div>
+        <div class="age__hr__button">
+            <div class="age__hr"></div>
+            <button class="age__button" id="submit_button"></button>
+        </div>
+        <div class="age__result">
+            <h1 id="year"><span id="span__year">--</span> Years</h1>
+            <h1 id="month"><span id="span__month">--</span> Months</h1>
+            <h1 id="day"><span id="span_day">--</span> Days</h1>
+        </div>
+    </div>
+</body>
+</html>

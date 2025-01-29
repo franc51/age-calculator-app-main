@@ -93,7 +93,7 @@ body {
 span {
     color: hsl(259, 100%, 65%);
 }
-.age__error_state {
+.error {
     color: red;
     font-size: 10px;
     display: none;

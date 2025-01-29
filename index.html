@@ -14,18 +14,19 @@
         <div class="age__inputs">
             <div class="age__input__day">
                 <label class="age__input__label" for="day_label" id="day_label">DAY</label>
-                <input class="age__input" type="number" placeholder="DD" id="day_input" min="0" max="32">
-                <p class="age__error_state" id="age__error_state">Must be a valid day</p>
+                <input class="age__input" type="number" placeholder="DD" id="day_input">
+                <p class="age__error_day error" id="age__error__day">Must be a valid day</p>
+                <p class="age__error_date error" id="age__error_date">Must be a valid date</p>
             </div>
             <div class="age__input__month">
-                <label class="age__input__label" for="month">MONTH</label>
-                <input class="age__input" type="number" placeholder="MM">
-                <p class="age__error_state">Must be a valid month</p>
+                <label class="age__input__label" for="month" id="month_label">MONTH</label>
+                <input class="age__input" type="number" placeholder="MM" id="month_input">
+                <p class="age__error_month error" id="age__error__month">Must be a valid month</p>
             </div>
             <div class="age__input__year">
-                <label class="age__input__label" for="year">YEAR</label>
-                <input class="age__input" type="number" placeholder="YYYY">
-                <p class="age__error_state">Must be a valid year</p>
+                <label class="age__input__label" for="year" id="year_label">YEAR</label>
+                <input class="age__input" type="number" placeholder="YYYY" id="year_input">
+                <p class="age__error_year error" id="age__error__year">Must be a valid year</p>
             </div>
         </div>
         <div class="age__hr__button">
